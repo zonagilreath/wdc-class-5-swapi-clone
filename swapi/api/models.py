@@ -6,6 +6,9 @@ class Planet(models.Model):
     population = models.IntegerField(null=True, blank=True)
     diameter = models.IntegerField(null=True, blank=True)
 
+    def __str__(self):
+        return self.name
+
 
 class People(models.Model):
     HAIR_COLOR_CHOICES = (
@@ -21,3 +24,6 @@ class People(models.Model):
     hair_color = models.CharField(
         max_length=10, choices=HAIR_COLOR_CHOICES, null=True, blank=True)
     created = models.DateTimeField(auto_now_add=True)
+
+    def __str__(self):
+        return self.name
