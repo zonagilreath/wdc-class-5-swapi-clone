@@ -1,5 +1,7 @@
 # SWAPI Clone
 
+> Admin user created with credentials (usr, password): `admin`/`admin`
+
 Do you love Star Wars as much as we do? In order to practice Web Services and RESTful APIs with Django, today we will build a basic Star Wars API using regular Django views and URLs. 💪
 
 We will use the data model provided by this open and free web service: [https://swapi.co/](https://swapi.co/). Check it out and play with it for better understanding of the type of data we will be handling. We will just concentrate in the `/people` endpoint, and its relationship with the `/planets` one.

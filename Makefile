@@ -9,7 +9,6 @@ PORT=8080
 PYTHONPATH=swapi
 DJANGO_SETTINGS=swapi.settings
 
-# django-command = django-admin $(1) $(HOST):$(PORT) --settings $(DJANGO_SETTINGS) --pythonpath $(PYTHONPATH)
 django-command = django-admin $(1) $(2) --settings $(DJANGO_SETTINGS) --pythonpath $(PYTHONPATH)
 
 runserver:
